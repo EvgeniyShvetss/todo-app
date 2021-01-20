@@ -1,0 +1,2 @@
+(this["webpackJsonptodo-list"]=this["webpackJsonptodo-list"]||[]).push([[0],{9:function(t,e,n){"use strict";n.r(e);var o=n(1),s=n(0),c=n.n(s),i=n(3),r=function(){return Object(o.jsx)("div",{className:"App",children:"todo-app"})};n.n(i).a.render(Object(o.jsx)(c.a.StrictMode,{children:Object(o.jsx)(r,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.f8f81bc7.chunk.js.map
