@@ -31,7 +31,6 @@ export function selectTask(id) {
   }
 }
 export function renameTodo(text, id) {
-  console.log(text, id)
   return {
     type: RENAME_TODO,
     payload: {

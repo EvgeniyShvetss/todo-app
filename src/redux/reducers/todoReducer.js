@@ -15,7 +15,6 @@ const initialState = {
 }
 
 function todoReducer(state = initialState, action) {
-  console.log(action.type)
   switch (action.type) {
     case ADD_TASK:
       return { ...state, tasks: [...state.tasks, action.payload] }

@@ -11,6 +11,9 @@
     "prettier"
   ],
   "rules": {
+    "jsx-a11y/no-autofocus": [ 2, {
+      "ignoreNonDOM": true
+    }],
     "semi": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": [

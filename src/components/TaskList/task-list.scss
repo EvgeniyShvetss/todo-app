@@ -1,3 +1,21 @@
 .task-list {
   margin-top: 20px;
+  position: relative;
+  &__selected-item {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: -63px;
+    transform: translate(0, -50%);
+    .fa {
+      font-size: 25px;
+      color: #00d1b2;
+      transition: .3s;
+      &:hover {
+        transition: .3s;
+        font-size: 30px;
+      }
+    }
+  }
 }

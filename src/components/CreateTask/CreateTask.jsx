@@ -20,14 +20,12 @@ const CreateTask = ({ addTaskAction }) => {
     <div className="create-task">
       <form onSubmit={handleSubmit} className="create-task__form">
         <input
-          className="create-task__input form-control"
+          className="create-task__input"
           value={state.title}
           onChange={handleChange}
+          placeholder="Enter new todo"
         />
-        <button
-          type="submit"
-          className="create-task__btn btn btn-outline-primary"
-        >
+        <button type="submit" className="create-task__btn">
           add
         </button>
       </form>

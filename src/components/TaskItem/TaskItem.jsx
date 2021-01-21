@@ -81,8 +81,4 @@ const mapDispatchToProps = {
   renameTodoAction: renameTodo,
 }
 
-const mapStateToProps = (state) => ({
-  mode: state.mode,
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(TaskItem)
+export default connect(null, mapDispatchToProps)(TaskItem)

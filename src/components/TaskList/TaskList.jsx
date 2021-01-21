@@ -20,7 +20,11 @@ const TaskList = ({ tasks, deleteSelectedTaskAction }) => {
         ))}
       </div>
       {doneTasks.length > 0 && (
-        <button type="button" onClick={() => deleteSelectedTaskAction()}>
+        <button
+          className="task-list__selected-item"
+          type="button"
+          onClick={() => deleteSelectedTaskAction()}
+        >
           <i className="fa fa-trash-o" />
         </button>
       )}

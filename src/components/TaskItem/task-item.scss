@@ -3,7 +3,7 @@
   width: 100%;
   padding: 10px 10px;
   justify-content: space-between;
-  border: 1px solid;
+  border: 1px solid #00d1b2;
   border-radius: 5px;
   margin-bottom: 10px;
   position: relative;
@@ -11,6 +11,9 @@
     button {
       border: none;
       background: transparent;
+      .fa {
+        color: #00d1b2;
+      }
     }
   }
   &__text {
@@ -19,6 +22,21 @@
   }
   &__check {
     margin-right: 10px;
+  }
+  input {
+    border: none;
+    border-bottom: 1px solid #00d1b2;
+  }
+  button {
+    border: none;
+    background: transparent;
+  }
+  &__text {
+    button {
+      .fa {
+        color: #00d1b2;
+      }
+    }
   }
 }
 
