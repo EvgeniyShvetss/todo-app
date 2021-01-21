@@ -5,23 +5,20 @@ import TaskList from "./components/TaskList"
 import "./App.scss"
 import TaskInput from "./components/CreateTask"
 
-const App = ({ tasks }) => {
-  console.log(tasks)
-  return (
-    <div className="app">
-      <div className="app__container">
-        <div className="app__text">
-          <h1 className="app_title">ToDo app</h1>
-          <h6>Count task {tasks.length}</h6>
-        </div>
-        <TaskInput />
-        <div className="app__task-container">
-          <TaskList />
-        </div>
+const App = ({ tasks }) => (
+  <div className="app">
+    <div className="app__container">
+      <div className="app__text">
+        <h1 className="app_title">ToDo app</h1>
+        <h6>Count task {tasks.length}</h6>
+      </div>
+      <TaskInput />
+      <div className="app__task-container">
+        <TaskList />
       </div>
     </div>
-  )
-}
+  </div>
+)
 
 App.propTypes = {
   tasks: PropTypes.arrayOf(PropTypes.shape({})).isRequired,

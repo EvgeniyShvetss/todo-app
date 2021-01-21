@@ -10,7 +10,6 @@ const initialState = {
   tasks: [
     { id: "0", title: "Yor first task", done: false },
     { id: "1", title: "Yor second task", done: false },
-    { id: "2", title: "Yor first task", done: false },
   ],
 }
 
