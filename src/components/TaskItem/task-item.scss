@@ -1,0 +1,29 @@
+.task-item {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px;
+  justify-content: space-between;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  position: relative;
+  &__control {
+    button {
+      border: none;
+      background: transparent;
+    }
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+  }
+  &__check {
+    margin-right: 10px;
+  }
+}
+
+.delete-selected-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,5 @@
+export const ADD_TASK = "ADD_TASK"
+export const DELETE_TASK = "DELETE_TASK"
+export const SELECTED_TASK = "SELECTED_TASK"
+export const RENAME_TODO = "RENAME_TODO"
+export const DELETE_SELECTED_TASK = "DELETE_SELECTED_TASK"
