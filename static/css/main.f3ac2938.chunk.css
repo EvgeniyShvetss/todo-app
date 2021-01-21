@@ -1,0 +1,2 @@
+.task-item{display:flex;width:100%;padding:10px;justify-content:space-between;border:1px solid;border-radius:5px;margin-bottom:10px;position:relative}.task-item__control button{border:none;background:transparent}.task-item__text{display:flex;align-items:center}.task-item__check{margin-right:10px}.delete-selected-item{position:absolute;top:0;left:0}.task-list{margin-top:20px}.app{max-width:400px;margin:0 auto}.create-task__form{display:flex}.create-task__btn{margin-left:10px}
+/*# sourceMappingURL=main.f3ac2938.chunk.css.map */
